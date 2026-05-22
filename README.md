@@ -8,7 +8,7 @@
 
 This lab was built to develop and demonstrate practical cloud security engineering skills. It simulates a full attack lifecycle from initial access to domain compromise and detects each technique using custom SIEM rules mapped to the MITRE ATT&CK framework.
 
-Built on a Lenovo Legion Pro 7 running VMware Workstation 26H1 with a fully isolated network. No internet access for attack machines — all traffic contained within the lab.
+Built on a Lenovo Legion Pro 7 running VMware Workstation 26H1 with a fully isolated network. No internet access for attack machines all traffic contained within the lab.
 
 ---
 
