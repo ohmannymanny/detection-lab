@@ -81,18 +81,17 @@ Detection rules available in `/detections/local_rules.xml`
 detection-lab/
 ├── README.md
 ├── setup/
-│   ├── 01-dc01-domain-controller.md
-│   ├── 02-win11-victim-endpoint.md
-│   ├── 03-wazuh-siem.md
-│   └── 04-kali-attacker.md
+│   ├── 01-dc01.md               # Domain Controller build
+│   ├── 02-win11.md              # Victim endpoint build
+│   ├── 03-wazuh.md              # Wazuh SIEM build
+│   └── 04-kali.md               # Attacker machine setup
 ├── attacks/
-│   ├── 01-mimikatz-lsass-dump.md
-│   └── 02-pass-the-hash.md
+│   ├── 01-mimikatz.md           # LSASS credential dump walkthrough
+│   └── 02-pass-the-hash.md     # Pass-the-hash attack walkthrough
 ├── detections/
-│   ├── local_rules.xml
-│   └── detection-notes.md
+│   └── local_rules.xml          # Custom Wazuh detection rules
 ├── mitre-mapping/
-│   └── attack-mapping.md
+│   └── attack-mapping.md        # MITRE ATT&CK technique mapping
 └── ir-report/
-    └── incident-report-IR-001.md
+    └── IR-001.md                # Incident report in CySA+ format
 ```
