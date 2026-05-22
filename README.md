@@ -6,7 +6,7 @@
 
 ## Overview
 
-This lab was built to develop and demonstrate practical cloud security engineering skills. It simulates a full attack lifecycle — from initial access to domain compromise — and detects each technique using custom SIEM rules mapped to the MITRE ATT&CK framework.
+This lab was built to develop and demonstrate practical cloud security engineering skills. It simulates a full attack lifecycle from initial access to domain compromise and detects each technique using custom SIEM rules mapped to the MITRE ATT&CK framework.
 
 Built on a Lenovo Legion Pro 7 running VMware Workstation 26H1 with a fully isolated network. No internet access for attack machines — all traffic contained within the lab.
 
@@ -32,7 +32,7 @@ Built on a Lenovo Legion Pro 7 running VMware Workstation 26H1 with a fully isol
 A simulated credential theft and lateral movement attack on a domain-joined Windows endpoint:
 
 1. Attacker gains local admin access to WIN11-01
-2. Mimikatz dumps credentials from LSASS memory — extracts NTLM hash for Domain Admin account
+2. Mimikatz dumps credentials from LSASS memory extracts NTLM hash for Domain Admin account
 3. Pass-the-hash authenticates as Domain Admin without knowing the plaintext password
 4. Full domain compromise achieved using only a credential hash
 
